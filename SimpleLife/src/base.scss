@@ -1,0 +1,50 @@
+﻿/*重置样式表*/
+/*==========样式重置===========*/
+body,h1,h2,h3,h4,p,a,input,img,ul,li,ol,dl,dt,dd{
+	padding:0;
+	margin:0;}
+ul,ol{
+	list-style:none;}
+img{
+	display:block;
+	border:0;}
+input{
+	outline:none;}
+header,footer,section,main,nav{
+	display:block;}
+body{
+    font-size:0.16rem;
+	/*font-size:0.375rem;*/
+	font-family:"微软雅黑";
+	color:#3e3e3e;}
+a{
+	text-decoration:none;
+	color:#0dc441;}
+a:hover{
+	text-decoration:underline;}
+/**{
+	box-sizing:border-box;}*/
+/*字体图标*/
+
+
+.iconfont {
+  font-family:"football" !important;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-caidan:before { content: "\f000d"; }
+
+.icon-erweima:before { content: "\f0050"; }
+
+.icon-tuichu:before { content: "\e796"; }
+
+.icon-my:before { content: "\e607"; }
+
+.icon-fangdajing:before { content: "\e653"; }
+
+.icon-shouye:before { content: "\e600"; }
+
+.icon-camera:before { content: "\e501"; }
+
